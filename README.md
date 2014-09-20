@@ -14,13 +14,15 @@ Install:
 -----------------------
 1) Removing Old Custom HUDs
 
-Other custom HUDs may conflict with DoodleHUD, so its a good idea to remove them. Other custom HUDs will be located in the custom directory as well.
+Other custom HUDs may conflict with DoodleHUD, so its a good idea to remove them. Other custom HUDs will be located in the custom directory as well
 
-2) Copy the "doodlehud" folder into your team fortress 2 custom folder.
-
-Your TF2 custom folder will look something like this:
+2) Open your TF2 custom folder
 
 C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom
+
+3) Create a "doodlehud" folder (or any name will do)
+
+4) Move the "cfg", "resources", "scripts" and "overrides" folders into this newly created folder
 
 
 Uninstall:
