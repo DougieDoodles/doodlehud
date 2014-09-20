@@ -1,32 +1,35 @@
 DoodleHUD - version 16 - 14-September-2014
-Edited by Doodles steamcommunity.com/id/guoddoug
+============================================================================
+
 
 About:
-============================================================================
+-----------------------
 DoodleHUD is a custom TF2 HUD, created by Doodles.
+
 More information: http://doodlesstuff.com/?stuff=doodlehud
+
 Screenshots available at the above link.
-============================================================================
 
 Install:
-============================================================================
+-----------------------
 1) Removing Old Custom HUDs
-----------------------------------------------------------------------------
-Other custom HUDs may conflict with DoodleHUD, so its a good idea to remove
-them. Other custom HUDs will be located in the custom directory as well.
-----------------------------------------------------------------------------
+
+Other custom HUDs may conflict with DoodleHUD, so its a good idea to remove them. Other custom HUDs will be located in the custom directory as well.
+
 2) Copy the "doodlehud" folder into your team fortress 2 custom folder.
+
 Your TF2 custom folder will look something like this:
+
 C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom
-============================================================================
+
 
 Uninstall:
-============================================================================
+-----------------------
 Delete the "doodlehud" folder from your team fortress 2 custom folder.
-============================================================================
+
 
 Changelog:
-============================================================================
+-----------------------
 Version 16 - 14-September-2014
 
 - Improved Item Meters and Added Labels to them: http://i.imgur.com/ZzgyNKf.jpg
@@ -158,7 +161,7 @@ Version 1.1 - 5-11-2012
 Version 1.0 - 29-9-2012
 
 - No changes - Initial version
-============================================================================
 
 
-Doodles - http://doodlesstuff.com
+
+Doodles - http://doodlesstuff.com - http://steamcommunity.com/id/guoddoug/
