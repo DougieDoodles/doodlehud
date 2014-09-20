@@ -22,7 +22,7 @@ C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom
 
 3) Create a "doodlehud" folder (or any name will do)
 
-4) Move the "cfg", "resources", "scripts" and "overrides" folders into this newly created folder
+4) Move the "cfg", "resource", "scripts" and "overrides" folders into this newly created folder
 
 
 Uninstall:
