@@ -8,7 +8,7 @@ DoodleHUD is a custom TF2 HUD, created by Doodles.
 
 More information: http://doodlesstuff.com/?stuff=doodlehud
 
-Screenshots available at the above link.
+Screenshots available: http://imgur.com/a/TiqWv
 
 Install:
 -----------------------
