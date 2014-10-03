@@ -27,7 +27,7 @@
 		"item_backpack_offcenter_x"		"-288"
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
-		"button_xpos_offcenter"	"175"		
+		"button_xpos_offcenter"	"175"
 		"button_ypos"	"85"
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
@@ -36,6 +36,66 @@
 		"page_button_y_delta" "3"
 		"page_button_per_row" "20"
 		"page_button_height" "13"
+		"pagebuttons_kv"
+		{
+			"ControlName"	"EditablePanel"
+			"wide"			"10"
+			"tall"			"10"
+			"visible"		"0"
+			"bgcolor_override"		"0 0 0 0"
+			"noitem_textcolor"		"117 107 94 255"
+			"PaintBackgroundType"	"2"
+			"paintborder"	"1"
+			
+
+			
+			
+			"Button"
+			{
+				"fieldName"		"Button"
+				"ControlName"	"CExButton"
+				"wide"			"25"
+				"tall"			"13"
+				"visible"		"1"
+				"bgcolor_override"		"0 0 0 0"
+				"noitem_textcolor"		"117 107 94 255"
+				"PaintBackgroundType"	"2"
+				"paintborder"	"1"
+				"textAlignment"	"center"
+				"labelText"		"%page%"
+				"font"				"HudFontSmallestBold"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"	
+			
+					//"paintbackground"	"1"
+
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
+			}
+			"New"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"New"
+				"font"			"FontStorePrice"
+				"textAlignment"	"east"
+				"ypos"			"0"
+				"xpos"			"0"
+				"zpos"			"0"
+				"wide"			"f1"
+				"tall"			"f-3"
+				"textinsetx"	"8"
+				"autoResize"	"1"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"enabled"		"1"
+				"labelText"		"#Store_Price_New"
+				"mouseinputenabled" "0"
+				"paintbackground"	"0"
+				"proportionaltoparent"	"1"
+				"border"		"StoreNewBorder"
+				"fgcolor"		"10 10 10 255"
+			}
+		}
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -63,6 +123,28 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+			}
+			"New"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"New"
+				"font"			"FontStorePrice"
+				"textAlignment"	"east"
+				"xpos"			"rs1"
+				"zpos"			"15"
+				"wide"			"25"
+				"tall"			"12"
+				"textinsetx"	"8"
+				"autoResize"	"1"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"enabled"		"1"
+				"labelText"		"#Store_Price_New"
+				"mouseinputenabled" "0"
+				"paintbackground"	"0"
+				"proportionaltoparent"	"1"
+				"border"		"StoreNewBorder"
+				"fgcolor"		"10 10 10 255"
 			}
 			"use_item_sounds"	"1"
 		}
@@ -139,7 +221,7 @@
 		"selectionColor_override" "0 0 0 0"
 		"selectionTextColor_override" "235 226 202 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
-	}	
+	}
 	"ShowBaseItemsCheckbox"
 	{
 		"ControlName"	"CheckButton"
@@ -225,7 +307,7 @@
 		"selectionColor_override" "0 0 0 0"
 		"selectionTextColor_override" "235 226 202 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
-	}	
+	}
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -369,7 +451,7 @@
 		"labelText"		">"
 		"font"			"DfVer14"
 		"textAlignment"	"center"
-	}			
+	}
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -452,7 +534,7 @@
 		"depressedFgColor_override" "DcMenuFont1"
 		"border_default"			"DbMenuButton"
 		"border_armed"				"DbMenuButton"
-	}		
+	}
 	"DragToPrevPageButton"
 	{
 		"ControlName"	"CExButton"
@@ -484,7 +566,7 @@
 		"depressedFgColor_override" "DcMenuFont1"
 		"border_default"			"DbMenuButton"
 		"border_armed"				"DbMenuButton"
-	}		
+	}
 	"CancelApplyToolButton"
 	{
 		"ControlName"	"CExButton"
@@ -517,7 +599,7 @@
 		"depressedFgColor_override" "DcMenuFont1"
 		"border_default"			"DbMenuButton"
 		"border_armed"				"DbMenuButton"
-	}		
+	}
 	"DeleteButton"
 	{
 		"ControlName"	"CExButton"
@@ -550,7 +632,7 @@
 		"depressedFgColor_override" "DcMenuFont1"
 		"border_default"			"DbMenuButton"
 		"border_armed"				"DbMenuButton"
-	}			
+	}
 	"UseButton"
 	{
 		"ControlName"	"CExButton"
@@ -749,8 +831,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -811,9 +893,9 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}	
-	}	
+			}
+		}
+	}
 	"PagesExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -913,8 +995,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -957,8 +1039,8 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1019,9 +1101,9 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}	
-	}	
+			}
+		}
+	}
 	"DeleteExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1121,8 +1203,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1165,7 +1247,7 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
+			}
 		}
 		"NextButton"
 		{
@@ -1209,8 +1291,8 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1329,8 +1411,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1373,7 +1455,7 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
+			}
 		}
 		"NextButton"
 		{
@@ -1417,8 +1499,8 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1537,8 +1619,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1581,8 +1663,8 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1625,8 +1707,8 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}	
+			}
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1745,8 +1827,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1789,8 +1871,8 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1833,8 +1915,8 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}	
+			}
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1853,7 +1935,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
-	}	
+	}
 	"SortExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1952,8 +2034,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1996,8 +2078,8 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -2016,7 +2098,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
-	}	
+	}
 }
 //
 // DoodleHUD - edited by Doodles - http://doodlesstuff.com
