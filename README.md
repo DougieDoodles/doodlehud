@@ -1,4 +1,4 @@
-DoodleHUD - version 16 - 14-September-2014
+DoodleHUD - version 17 - 3-October-2014
 ============================================================================
 
 
@@ -32,6 +32,11 @@ Delete the "doodlehud" folder from your team fortress 2 custom folder.
 
 Changelog:
 -----------------------
+Version 17 - 03-October-2014
+
+- Fixed missing page buttons in backpack
+- Fixed minor visual bug on main menu
+
 Version 16 - 14-September-2014
 
 - Improved Item Meters and Added Labels to them: http://i.imgur.com/ZzgyNKf.jpg
