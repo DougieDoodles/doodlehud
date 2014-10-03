@@ -10,6 +10,8 @@ More information: http://doodlesstuff.com/?stuff=doodlehud
 
 Screenshots available: http://imgur.com/a/TiqWv
 
+Demonstration Video: http://www.youtube.com/watch?v=JR6i4glR0hw
+
 Install:
 -----------------------
 1) Removing Old Custom HUDs
