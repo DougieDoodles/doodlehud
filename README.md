@@ -1,4 +1,4 @@
-DoodleHUD - version 17 - 3-October-2014
+DoodleHUD - version 17 - 30-October-2014
 ============================================================================
 
 
@@ -34,6 +34,13 @@ Delete the "doodlehud" folder from your team fortress 2 custom folder.
 
 Changelog:
 -----------------------
+Version 18 - 30-October-2014
+
+- Fixed Target IDs (have to alter things due to valve changing Target IDs)
+- Altered Big Target ID Override: http://i.imgur.com/KD7lFu1.jpg
+- Altered Small Target ID Override: http://i.imgur.com/XLBs5pT.jpg
+- Fixed a couple other bugs
+
 Version 17 - 03-October-2014
 
 - Fixed missing page buttons in backpack
