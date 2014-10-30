@@ -77,18 +77,40 @@
 	}
 	"SpectatorGUIHealth"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"-25"
-		"ypos"			"-1"
-		"wide"			"60"
-		"tall"			"24"
+		"xpos"			"-30"
+		"ypos"			"-6"
+		"wide"			"68"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
-		"HealthDeathWarning"	"0.49"
+		"HealthDeathWarning" "0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
+		"PlayerStatusHealthImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"PlayerStatusHealthImage"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"PlayerStatusHealthImageBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"PlayerStatusHealthImageBG"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"PlayerStatusHealthBonusImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"PlayerStatusHealthBonusImage"
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			"none" // Will give console error "Missing Vgui material vgui/none" -  But will hide image
+		}
 	}
 }

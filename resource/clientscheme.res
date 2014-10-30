@@ -5012,6 +5012,11 @@ Scheme
 		{
 			"font" "resource/crosshairs.ttf"
 			"name" "Crosshairs"
+		}
+		"6"
+		{
+			"font" "resource/bebas.ttf"
+			"name" "Bebas"
 		}		
 	}
 }

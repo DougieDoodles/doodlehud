@@ -7,13 +7,13 @@
 	{
 		"controlName" "CExLabel"
 		"fieldName" "FogCrosshair"
-		"visible" "0"
+		"visible" "1"
 		"enabled" "1"
 		"zpos" "2"
-		"xpos" "c-100"
+		"xpos" "c-102"
 		"ypos" "c-100"
-		"wide" "200"
-		"tall" "207"
+		"wide" "204"
+		"tall" "206"
 		"font" "DfFogCrosshair1"
 		"labelText" "c"
 		"textAlignment" "center"
@@ -221,7 +221,7 @@
 		"xpos"		"c-280"
 		"ypos"		"c190"
 		"wide"		"180"
-		"tall"		"20"
+		"tall"		"24"
 	}
 	CMainTargetID // PBDH
 	{
@@ -247,7 +247,7 @@
 		"xpos"		"c-126"
 		"ypos"		"c170"
 		"wide"	 	"252"
-		"tall"	 	"20"
+		"tall"	 	"24"
 		"priority"	"40"
 		"y_offset"	"102"
 	}
@@ -1218,6 +1218,16 @@
 		"wide"			"150"
 		"tall"			"250"
 		"PaintBackgroundType"	"0"
+	}
+	HudMiniGame
+	{
+		"fieldName" "HudMiniGame"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
 	}
 }
 //
