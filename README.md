@@ -1,4 +1,4 @@
-DoodleHUD - version 18 - 30-October-2014
+DoodleHUD - version 19 - 31-October-2014
 ============================================================================
 
 
@@ -34,6 +34,10 @@ Delete the "doodlehud" folder from your team fortress 2 custom folder.
 
 Changelog:
 -----------------------
+Version 19 - 31-October-2014
+
+- Fixed Fog's Crosshair being on by default (my mistake)
+
 Version 18 - 30-October-2014
 
 - Fixed Target IDs (have to alter things due to valve changing Target IDs)
